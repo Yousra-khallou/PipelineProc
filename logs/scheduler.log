@@ -1,0 +1,136 @@
+2026-01-14 01:44:00,674 - INFO - ======================================================================
+2026-01-14 01:44:00,674 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-14 01:44:00,675 - INFO - Heure d'exécution programmée: 22:00
+2026-01-14 01:44:00,676 - INFO - ======================================================================
+2026-01-14 01:53:15,611 - INFO - ======================================================================
+2026-01-14 01:53:15,611 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-14 01:53:15,612 - INFO - Heure d'exécution programmée: 22:00
+2026-01-14 01:53:15,612 - INFO - ======================================================================
+2026-01-14 21:58:53,123 - INFO - ======================================================================
+2026-01-14 21:58:53,123 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-14 21:58:53,124 - INFO - Heure d'exécution programmée: 22:00
+2026-01-14 21:58:53,124 - INFO - ======================================================================
+2026-01-14 22:00:53,125 - INFO - ======================================================================
+2026-01-14 22:00:53,126 - INFO - DÉMARRAGE DU PIPELINE QUOTIDIEN
+2026-01-14 22:00:53,126 - INFO - ======================================================================
+2026-01-14 22:00:53,126 - INFO - Étape 1/4: Génération des commandes...
+2026-01-14 22:00:56,632 - ERROR - Erreur génération commandes: Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 146, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 143, in main
+    generate_daily_orders()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 93, in generate_daily_orders
+    skus = get_active_skus()
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 32, in get_active_skus
+    cursor.execute("""
+    ~~~~~~~~~~~~~~^^^^
+        SELECT p.sku, p.product_name, p.category, p.perishable
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        WHERE s.active = TRUE
+        ^^^^^^^^^^^^^^^^^^^^^
+    """)
+    ^^^^
+psycopg2.errors.UndefinedColumn: column p.category does not exist
+LINE 2:         SELECT p.sku, p.product_name, p.category, p.perishab...
+                                              ^
+
+
+2026-01-14 22:03:38,298 - INFO - ======================================================================
+2026-01-14 22:03:38,299 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-14 22:03:38,299 - INFO - Heure d'exécution programmée: 22:00
+2026-01-14 22:03:38,299 - INFO - ======================================================================
+2026-01-15 21:58:43,550 - INFO - ======================================================================
+2026-01-15 21:58:43,551 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 21:58:43,553 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 21:58:43,553 - INFO - ======================================================================
+2026-01-15 22:00:43,555 - INFO - ======================================================================
+2026-01-15 22:00:43,556 - INFO - DÉMARRAGE DU PIPELINE QUOTIDIEN
+2026-01-15 22:00:43,557 - INFO - ======================================================================
+2026-01-15 22:00:43,558 - INFO - Étape 1/4: Génération des commandes...
+2026-01-15 22:00:45,115 - ERROR - Erreur génération commandes: Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 146, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 143, in main
+    generate_daily_orders()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_orders.py", line 94, in generate_daily_orders
+    print(f"\u2713 {len(skus)} SKUs actifs récupérés")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+
+2026-01-15 22:31:37,671 - INFO - ======================================================================
+2026-01-15 22:31:37,671 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 22:31:37,672 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 22:31:37,672 - INFO - ======================================================================
+2026-01-15 21:59:08,289 - INFO - ======================================================================
+2026-01-15 21:59:08,289 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 21:59:08,290 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 21:59:08,290 - INFO - ======================================================================
+2026-01-15 22:00:08,291 - INFO - ======================================================================
+2026-01-15 22:00:08,292 - INFO - DÉMARRAGE DU PIPELINE QUOTIDIEN
+2026-01-15 22:00:08,292 - INFO - ======================================================================
+2026-01-15 22:00:08,293 - INFO - Étape 1/4: Génération des commandes...
+2026-01-15 22:00:10,070 - INFO - Commandes générées avec succès
+2026-01-15 22:00:10,071 - INFO - Étape 2/4: Génération des stocks...
+2026-01-15 22:00:10,353 - ERROR - Erreur génération stocks: Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_stock.py", line 148, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_stock.py", line 145, in main
+    generate_daily_stock()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\procPipeline\PipelineProc\generate_stock.py", line 98, in generate_daily_stock
+    print(f"\u2713 {len(products)} produits avec règles")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+
+2026-01-15 22:05:10,818 - INFO - ======================================================================
+2026-01-15 22:05:10,819 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 22:05:10,819 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 22:05:10,820 - INFO - ======================================================================
+2026-01-15 21:59:27,112 - INFO - ======================================================================
+2026-01-15 21:59:27,113 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 21:59:27,113 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 21:59:27,113 - INFO - ======================================================================
+2026-01-15 22:00:27,115 - INFO - ======================================================================
+2026-01-15 22:00:27,116 - INFO - DÉMARRAGE DU PIPELINE QUOTIDIEN
+2026-01-15 22:00:27,117 - INFO - ======================================================================
+2026-01-15 22:00:27,118 - INFO - Étape 1/4: Génération des commandes...
+2026-01-15 22:00:28,244 - INFO - Commandes générées avec succès
+2026-01-15 22:00:28,244 - INFO - Étape 2/4: Génération des stocks...
+2026-01-15 22:00:28,519 - INFO - Stocks générés avec succès
+2026-01-15 22:00:28,519 - INFO - Étape 3/4: Exécution du pipeline...
+2026-01-15 22:01:48,349 - INFO - Pipeline exécuté avec succès
+2026-01-15 22:01:48,350 - INFO - ======================================================================
+2026-01-15 22:01:48,350 - INFO - PIPELINE QUOTIDIEN TERMINÉ AVEC SUCCÈS
+2026-01-15 22:01:48,350 - INFO - ======================================================================
+2026-01-15 21:59:25,822 - INFO - ======================================================================
+2026-01-15 21:59:25,822 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 21:59:25,823 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 21:59:25,824 - INFO - ======================================================================
+2026-01-15 22:00:25,826 - INFO - ======================================================================
+2026-01-15 22:00:25,827 - INFO - DÉMARRAGE DU PIPELINE QUOTIDIEN
+2026-01-15 22:00:25,828 - INFO - ======================================================================
+2026-01-15 22:00:25,828 - INFO - Étape 1/4: Génération des commandes...
+2026-01-15 22:00:27,166 - INFO - Commandes générées avec succès
+2026-01-15 22:00:27,166 - INFO - Étape 2/4: Génération des stocks...
+2026-01-15 22:00:27,421 - INFO - Stocks générés avec succès
+2026-01-15 22:00:27,422 - INFO - Étape 3/4: Exécution du pipeline...
+2026-01-15 22:01:50,049 - INFO - Pipeline exécuté avec succès
+2026-01-15 22:01:50,049 - INFO - ======================================================================
+2026-01-15 22:01:50,050 - INFO - PIPELINE QUOTIDIEN TERMINÉ AVEC SUCCÈS
+2026-01-15 22:01:50,050 - INFO - ======================================================================
+2026-01-15 22:00:58,217 - INFO - ======================================================================
+2026-01-15 22:00:58,217 - INFO - PLANIFICATEUR DE PIPELINE DÉMARRÉ
+2026-01-15 22:00:58,218 - INFO - Heure d'exécution programmée: 22:00
+2026-01-15 22:00:58,218 - INFO - ======================================================================

@@ -1,0 +1,560 @@
+[
+  {
+    "order_id": "ORD-STORE001-2026-01-15-817fbac8",
+    "store_id": "STORE001",
+    "sku": "SKU0060",
+    "product_name": "Room return",
+    "quantity": 12,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T08:31:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-a165386b",
+    "store_id": "STORE001",
+    "sku": "SKU0136",
+    "product_name": "Science eat",
+    "quantity": 42,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T08:41:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-74de0424",
+    "store_id": "STORE001",
+    "sku": "SKU0119",
+    "product_name": "Deep recent",
+    "quantity": 28,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T22:08:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-687b1bbe",
+    "store_id": "STORE001",
+    "sku": "SKU0185",
+    "product_name": "Research group",
+    "quantity": 26,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T14:10:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-81b95847",
+    "store_id": "STORE001",
+    "sku": "SKU0043",
+    "product_name": "Impact shake",
+    "quantity": 35,
+    "category": "Poissons",
+    "timestamp": "2026-01-15T17:41:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-83f04dae",
+    "store_id": "STORE001",
+    "sku": "SKU0096",
+    "product_name": "Face develop",
+    "quantity": 24,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T15:02:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-102c55e7",
+    "store_id": "STORE001",
+    "sku": "SKU0079",
+    "product_name": "Buy window",
+    "quantity": 9,
+    "category": "Fruits",
+    "timestamp": "2026-01-15T14:06:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-edf08de4",
+    "store_id": "STORE001",
+    "sku": "SKU0109",
+    "product_name": "All candidate",
+    "quantity": 42,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T13:38:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-d68946b3",
+    "store_id": "STORE001",
+    "sku": "SKU0003",
+    "product_name": "Month event",
+    "quantity": 64,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T14:55:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-de7ed1d5",
+    "store_id": "STORE001",
+    "sku": "SKU0084",
+    "product_name": "Save own",
+    "quantity": 59,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T22:56:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-e9c4f279",
+    "store_id": "STORE001",
+    "sku": "SKU0101",
+    "product_name": "Also floor",
+    "quantity": 21,
+    "category": "Poissons",
+    "timestamp": "2026-01-15T20:43:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-a5afb98e",
+    "store_id": "STORE001",
+    "sku": "SKU0006",
+    "product_name": "He teacher",
+    "quantity": 19,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T09:38:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-7608d16f",
+    "store_id": "STORE001",
+    "sku": "SKU0055",
+    "product_name": "Institution situation",
+    "quantity": 20,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T13:44:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-c3a36e87",
+    "store_id": "STORE001",
+    "sku": "SKU0010",
+    "product_name": "Eight including",
+    "quantity": 27,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T09:56:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-a0e05fc3",
+    "store_id": "STORE001",
+    "sku": "SKU0153",
+    "product_name": "Style suggest",
+    "quantity": 38,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T22:38:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-6a1747e0",
+    "store_id": "STORE001",
+    "sku": "SKU0036",
+    "product_name": "Time its",
+    "quantity": 51,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T22:56:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-3380f495",
+    "store_id": "STORE001",
+    "sku": "SKU0035",
+    "product_name": "Hit position",
+    "quantity": 53,
+    "category": "Boissons",
+    "timestamp": "2026-01-15T11:23:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-0da75f6d",
+    "store_id": "STORE001",
+    "sku": "SKU0178",
+    "product_name": "Phone benefit",
+    "quantity": 18,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T16:11:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-fe9ecd8b",
+    "store_id": "STORE001",
+    "sku": "SKU0199",
+    "product_name": "Population military",
+    "quantity": 11,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T15:52:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-ab210108",
+    "store_id": "STORE001",
+    "sku": "SKU0161",
+    "product_name": "Lead beyond",
+    "quantity": 13,
+    "category": "Légumes",
+    "timestamp": "2026-01-15T13:49:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-ce015152",
+    "store_id": "STORE001",
+    "sku": "SKU0075",
+    "product_name": "Fill sit",
+    "quantity": 9,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T21:27:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-162b5e65",
+    "store_id": "STORE001",
+    "sku": "SKU0140",
+    "product_name": "Major charge",
+    "quantity": 47,
+    "category": "Boissons",
+    "timestamp": "2026-01-15T16:02:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-9ed2a90a",
+    "store_id": "STORE001",
+    "sku": "SKU0163",
+    "product_name": "Response size",
+    "quantity": 92,
+    "category": "Boissons",
+    "timestamp": "2026-01-15T08:29:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-c8da1bea",
+    "store_id": "STORE001",
+    "sku": "SKU0086",
+    "product_name": "Sport next",
+    "quantity": 56,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T17:02:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-ec4b4b46",
+    "store_id": "STORE001",
+    "sku": "SKU0130",
+    "product_name": "Business store",
+    "quantity": 26,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T20:02:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-25261a62",
+    "store_id": "STORE001",
+    "sku": "SKU0184",
+    "product_name": "Weight minute",
+    "quantity": 16,
+    "category": "Poissons",
+    "timestamp": "2026-01-15T11:59:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-867fb328",
+    "store_id": "STORE001",
+    "sku": "SKU0126",
+    "product_name": "Kitchen degree",
+    "quantity": 22,
+    "category": "Fruits",
+    "timestamp": "2026-01-15T21:54:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-6eb1dd5b",
+    "store_id": "STORE001",
+    "sku": "SKU0015",
+    "product_name": "Guess institution",
+    "quantity": 81,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T18:03:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-f8f7a04a",
+    "store_id": "STORE001",
+    "sku": "SKU0085",
+    "product_name": "Team think",
+    "quantity": 40,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T08:19:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-f54a7d19",
+    "store_id": "STORE001",
+    "sku": "SKU0166",
+    "product_name": "Theory nor",
+    "quantity": 21,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T14:09:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-c2b1c504",
+    "store_id": "STORE001",
+    "sku": "SKU0088",
+    "product_name": "Must success",
+    "quantity": 18,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T08:41:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-bb82231a",
+    "store_id": "STORE001",
+    "sku": "SKU0053",
+    "product_name": "Prepare water",
+    "quantity": 34,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T14:13:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-afaf8f43",
+    "store_id": "STORE001",
+    "sku": "SKU0139",
+    "product_name": "News card",
+    "quantity": 36,
+    "category": "Boissons",
+    "timestamp": "2026-01-15T10:02:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-905ea05e",
+    "store_id": "STORE001",
+    "sku": "SKU0157",
+    "product_name": "Old us",
+    "quantity": 23,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T22:59:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-cfc7f9c0",
+    "store_id": "STORE001",
+    "sku": "SKU0179",
+    "product_name": "Energy lay",
+    "quantity": 81,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T17:50:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-e69b7626",
+    "store_id": "STORE001",
+    "sku": "SKU0056",
+    "product_name": "News college",
+    "quantity": 9,
+    "category": "Poissons",
+    "timestamp": "2026-01-15T17:11:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-58da9cb1",
+    "store_id": "STORE001",
+    "sku": "SKU0025",
+    "product_name": "Successful for",
+    "quantity": 20,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T11:52:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-9bdc3cbf",
+    "store_id": "STORE001",
+    "sku": "SKU0146",
+    "product_name": "Check understand",
+    "quantity": 13,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T18:12:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-46888749",
+    "store_id": "STORE001",
+    "sku": "SKU0037",
+    "product_name": "Memory century",
+    "quantity": 24,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T19:22:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-6a319a38",
+    "store_id": "STORE001",
+    "sku": "SKU0039",
+    "product_name": "Investment suggest",
+    "quantity": 35,
+    "category": "Boissons",
+    "timestamp": "2026-01-15T17:24:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-bcb6891f",
+    "store_id": "STORE001",
+    "sku": "SKU0012",
+    "product_name": "Race reach",
+    "quantity": 36,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T09:32:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-c60fe13e",
+    "store_id": "STORE001",
+    "sku": "SKU0176",
+    "product_name": "Option special",
+    "quantity": 23,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T10:17:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-4b964c0d",
+    "store_id": "STORE001",
+    "sku": "SKU0052",
+    "product_name": "Serve small",
+    "quantity": 20,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T17:48:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-b02b7f40",
+    "store_id": "STORE001",
+    "sku": "SKU0200",
+    "product_name": "War anything",
+    "quantity": 63,
+    "category": "Épicerie",
+    "timestamp": "2026-01-15T18:32:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-2b94a980",
+    "store_id": "STORE001",
+    "sku": "SKU0013",
+    "product_name": "Operation new",
+    "quantity": 58,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T08:01:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-677ee1ae",
+    "store_id": "STORE001",
+    "sku": "SKU0150",
+    "product_name": "Assume approach",
+    "quantity": 7,
+    "category": "Légumes",
+    "timestamp": "2026-01-15T17:51:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-51f4555d",
+    "store_id": "STORE001",
+    "sku": "SKU0064",
+    "product_name": "Charge third",
+    "quantity": 10,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T14:18:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-7515d009",
+    "store_id": "STORE001",
+    "sku": "SKU0045",
+    "product_name": "Especially coach",
+    "quantity": 64,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T19:06:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-6dafa7ab",
+    "store_id": "STORE001",
+    "sku": "SKU0078",
+    "product_name": "His shoulder",
+    "quantity": 30,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T19:58:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-b275408a",
+    "store_id": "STORE001",
+    "sku": "SKU0019",
+    "product_name": "Turn sport",
+    "quantity": 25,
+    "category": "Hygiène",
+    "timestamp": "2026-01-15T08:07:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-821f63dd",
+    "store_id": "STORE001",
+    "sku": "SKU0134",
+    "product_name": "Gas deal",
+    "quantity": 19,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T22:46:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-3147e3b3",
+    "store_id": "STORE001",
+    "sku": "SKU0050",
+    "product_name": "Talk learn",
+    "quantity": 22,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T20:53:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-2faeaf42",
+    "store_id": "STORE001",
+    "sku": "SKU0028",
+    "product_name": "Friend term",
+    "quantity": 63,
+    "category": "Boulangerie",
+    "timestamp": "2026-01-15T18:44:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-10698cc0",
+    "store_id": "STORE001",
+    "sku": "SKU0168",
+    "product_name": "Country down",
+    "quantity": 10,
+    "category": "Poissons",
+    "timestamp": "2026-01-15T14:19:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-45b3a0f4",
+    "store_id": "STORE001",
+    "sku": "SKU0063",
+    "product_name": "Stay data",
+    "quantity": 62,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T15:43:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-01d6e34b",
+    "store_id": "STORE001",
+    "sku": "SKU0169",
+    "product_name": "Stock help",
+    "quantity": 21,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T09:36:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-cdf4b93d",
+    "store_id": "STORE001",
+    "sku": "SKU0082",
+    "product_name": "Hotel democratic",
+    "quantity": 16,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T18:14:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-e1db630e",
+    "store_id": "STORE001",
+    "sku": "SKU0175",
+    "product_name": "Bring size",
+    "quantity": 29,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T08:37:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-3413f58d",
+    "store_id": "STORE001",
+    "sku": "SKU0024",
+    "product_name": "Age spring",
+    "quantity": 77,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T19:28:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-02991226",
+    "store_id": "STORE001",
+    "sku": "SKU0062",
+    "product_name": "Suddenly represent",
+    "quantity": 9,
+    "category": "Laitiers",
+    "timestamp": "2026-01-15T21:09:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-547c44d4",
+    "store_id": "STORE001",
+    "sku": "SKU0004",
+    "product_name": "Discussion democratic",
+    "quantity": 11,
+    "category": "Viandes",
+    "timestamp": "2026-01-15T08:52:00"
+  },
+  {
+    "order_id": "ORD-STORE001-2026-01-15-477f1fea",
+    "store_id": "STORE001",
+    "sku": "SKU0156",
+    "product_name": "Hotel focus",
+    "quantity": 56,
+    "category": "Surgelés",
+    "timestamp": "2026-01-15T11:04:00"
+  }
+]

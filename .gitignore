@@ -1,0 +1,260 @@
+# ============================================================================
+# .gitignore - Configuration complète pour projet Python
+# ============================================================================
+
+# ===== Python =====
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# ===== IDEs & Editors =====
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===== Système d'exploitation =====
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===== Bases de données =====
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ===== Logs =====
+logs/
+*.log
+log/
+*.log.*
+
+# ===== Data & Outputs =====
+# Fichiers de données (décommenter si besoin)
+data/
+output/
+outputs/
+results/
+temp/
+tmp/
+cache/
+
+# CSV/Excel générés
+# *.csv
+# *.xlsx
+# *.xls
+
+# ===== Credentials & Secrets =====
+# IMPORTANT: Ne jamais commiter ces fichiers!
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+credentials.json
+config.ini
+settings.ini
+
+# ===== Cloud & Deployment =====
+# AWS
+.aws/
+*.pem
+
+# Google Cloud
+*.json
+!requirements.json
+gcloud/
+
+# Azure
+.azure/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# ===== Documentation =====
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs
+site/
+
+# ===== Autres =====
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+
+# ===== Fichiers spécifiques au projet =====
+# Décommentez selon vos besoins
+
+# Fichiers de test
+# test_output/
+# test_results/
+
+# Modèles ML
+# *.pkl
+# *.h5
+# *.model
+# models/
+
+# Notebooks sauvegardés
+# notebooks/*.html
+
+# Rapports générés
+# reports/*.pdf
+# reports/*.html
+
+# ===== Exceptions (fichiers à inclure) =====
+# Utilisez ! pour forcer l'inclusion
+!.gitkeep
+!README.md
+!requirements.txt
+!.env.example
+!docker-compose.yml
+!Dockerfile

@@ -1,0 +1,39 @@
+{
+  "supplier_id": "SUP008",
+  "order_date": "2026-01-14",
+  "generated_at": "2026-01-14T22:06:39.318373",
+  "total_items": 5,
+  "total_units": 162,
+  "items": [
+    {
+      "sku": "SKU0079",
+      "quantity": 12,
+      "pack_size": 12,
+      "num_packs": 1
+    },
+    {
+      "sku": "SKU0027",
+      "quantity": 48,
+      "pack_size": 6,
+      "num_packs": 8
+    },
+    {
+      "sku": "SKU0081",
+      "quantity": 48,
+      "pack_size": 48,
+      "num_packs": 1
+    },
+    {
+      "sku": "SKU0124",
+      "quantity": 30,
+      "pack_size": 6,
+      "num_packs": 5
+    },
+    {
+      "sku": "SKU0178",
+      "quantity": 24,
+      "pack_size": 24,
+      "num_packs": 1
+    }
+  ]
+}

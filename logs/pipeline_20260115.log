@@ -1,0 +1,107 @@
+2026-01-15 22:00:28,739 - INFO - Pipeline initialisé pour 2026-01-15
+2026-01-15 22:00:28,739 - INFO - ======================================================================
+2026-01-15 22:00:28,739 - INFO - DÉMARRAGE PIPELINE - 2026-01-15
+2026-01-15 22:00:28,739 - INFO - ======================================================================
+2026-01-15 22:00:28,740 - INFO - === ÉTAPE 1: STRUCTURE HDFS ===
+2026-01-15 22:00:33,642 - INFO -  Créé: /procurement/raw/orders/2026-01-15
+2026-01-15 22:00:36,261 - INFO -  Créé: /procurement/raw/stock/2026-01-15
+2026-01-15 22:00:38,662 - INFO -  Créé: /procurement/processed/2026-01-15
+2026-01-15 22:00:40,784 - INFO -  Créé: /procurement/output/2026-01-15
+2026-01-15 22:00:43,071 - INFO -  Créé: /procurement/logs/2026-01-15
+2026-01-15 22:00:43,071 - INFO - === ÉTAPE 2: INGESTION COMMANDES ===
+2026-01-15 22:00:46,522 - INFO - Uploadé: orders_STORE001_2026-01-15.json
+2026-01-15 22:00:49,464 - INFO - Uploadé: orders_STORE002_2026-01-15.json
+2026-01-15 22:00:51,956 - INFO - Uploadé: orders_STORE003_2026-01-15.json
+2026-01-15 22:00:54,432 - INFO - Uploadé: orders_STORE004_2026-01-15.json
+2026-01-15 22:00:57,197 - INFO - Uploadé: orders_STORE005_2026-01-15.json
+2026-01-15 22:00:59,379 - INFO -  5 fichiers dans HDFS
+2026-01-15 22:00:59,380 - INFO - === ÉTAPE 3: INGESTION STOCK ===
+2026-01-15 22:01:01,950 - INFO -  Uploadé: stock_WH01_2026-01-15.json
+2026-01-15 22:01:04,600 - INFO -  Uploadé: stock_WH02_2026-01-15.json
+2026-01-15 22:01:06,825 - INFO -  2 fichiers dans HDFS
+2026-01-15 22:01:06,825 - INFO - === ÉTAPE 4: AGRÉGATION COMMANDES ===
+2026-01-15 22:01:06,835 - INFO -  558 commandes chargées
+2026-01-15 22:01:06,844 - INFO -  195 SKUs agrégés
+2026-01-15 22:01:06,845 - INFO -  Total unités: 17845
+2026-01-15 22:01:06,845 - INFO - === ÉTAPE 5: CALCUL NET DEMAND ===
+2026-01-15 22:01:06,851 - INFO -  200 SKUs en stock
+2026-01-15 22:01:06,960 - INFO - 195 SKUs analysés
+2026-01-15 22:01:06,960 - INFO -  124 SKUs à commander
+2026-01-15 22:01:06,960 - INFO -  12396 unités totales à commander
+2026-01-15 22:01:06,961 - INFO - === ÉTAPE 6: GÉNÉRATION COMMANDES FOURNISSEURS ===
+2026-01-15 22:01:06,961 - INFO -  15 fournisseurs concernés
+2026-01-15 22:01:06,964 - INFO -  SUP004: 12 SKUs, 954 unités
+2026-01-15 22:01:09,665 - INFO -  SUP007: 10 SKUs, 1170 unités
+2026-01-15 22:01:12,779 - INFO -  SUP001: 9 SKUs, 864 unités
+2026-01-15 22:01:15,648 - INFO -  SUP008: 9 SKUs, 528 unités
+2026-01-15 22:01:18,363 - INFO -  SUP006: 5 SKUs, 690 unités
+2026-01-15 22:01:21,026 - INFO -  SUP005: 12 SKUs, 1428 unités
+2026-01-15 22:01:23,597 - INFO -  SUP002: 14 SKUs, 1344 unités
+2026-01-15 22:01:26,351 - INFO -  SUP015: 8 SKUs, 804 unités
+2026-01-15 22:01:29,050 - INFO -  SUP014: 6 SKUs, 444 unités
+2026-01-15 22:01:31,867 - INFO -  SUP010: 11 SKUs, 1194 unités
+2026-01-15 22:01:34,599 - INFO -  SUP013: 7 SKUs, 744 unités
+2026-01-15 22:01:37,203 - INFO -  SUP009: 6 SKUs, 468 unités
+2026-01-15 22:01:39,986 - INFO -  SUP012: 3 SKUs, 168 unités
+2026-01-15 22:01:42,811 - INFO -  SUP011: 9 SKUs, 1164 unités
+2026-01-15 22:01:45,571 - INFO -  SUP003: 3 SKUs, 432 unités
+2026-01-15 22:01:48,316 - INFO -  Commandes disponibles dans: output\supplier_orders\2026-01-15
+2026-01-15 22:01:48,316 - INFO - === ÉTAPE 7: DÉTECTION EXCEPTIONS ===
+2026-01-15 22:01:48,327 - INFO -  Aucune exception détectée
+2026-01-15 22:01:48,328 - INFO - ======================================================================
+2026-01-15 22:01:48,328 - INFO -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-15 22:01:48,328 - INFO -   Durée: 79.59 secondes
+2026-01-15 22:01:48,328 - INFO - ======================================================================
+2026-01-15 22:00:27,650 - INFO - Pipeline initialisé pour 2026-01-15
+2026-01-15 22:00:27,650 - INFO - ======================================================================
+2026-01-15 22:00:27,651 - INFO - DÉMARRAGE PIPELINE - 2026-01-15
+2026-01-15 22:00:27,651 - INFO - ======================================================================
+2026-01-15 22:00:27,651 - INFO - === ÉTAPE 1: STRUCTURE HDFS ===
+2026-01-15 22:00:29,766 - INFO -  Créé: /procurement/raw/orders/2026-01-15
+2026-01-15 22:00:32,026 - INFO -  Créé: /procurement/raw/stock/2026-01-15
+2026-01-15 22:00:34,406 - INFO -  Créé: /procurement/processed/2026-01-15
+2026-01-15 22:00:36,461 - INFO -  Créé: /procurement/output/2026-01-15
+2026-01-15 22:00:38,896 - INFO -  Créé: /procurement/logs/2026-01-15
+2026-01-15 22:00:38,897 - INFO - === ÉTAPE 2: INGESTION COMMANDES ===
+2026-01-15 22:00:42,352 - INFO - Uploadé: orders_STORE001_2026-01-15.json
+2026-01-15 22:00:46,031 - INFO - Uploadé: orders_STORE002_2026-01-15.json
+2026-01-15 22:00:48,622 - INFO - Uploadé: orders_STORE003_2026-01-15.json
+2026-01-15 22:00:52,199 - INFO - Uploadé: orders_STORE004_2026-01-15.json
+2026-01-15 22:00:56,874 - INFO - Uploadé: orders_STORE005_2026-01-15.json
+2026-01-15 22:00:59,587 - INFO -  5 fichiers dans HDFS
+2026-01-15 22:00:59,587 - INFO - === ÉTAPE 3: INGESTION STOCK ===
+2026-01-15 22:01:03,745 - INFO -  Uploadé: stock_WH01_2026-01-15.json
+2026-01-15 22:01:07,054 - INFO -  Uploadé: stock_WH02_2026-01-15.json
+2026-01-15 22:01:09,480 - INFO -  2 fichiers dans HDFS
+2026-01-15 22:01:09,481 - INFO - === ÉTAPE 4: AGRÉGATION COMMANDES ===
+2026-01-15 22:01:09,485 - INFO -  466 commandes chargées
+2026-01-15 22:01:09,490 - INFO -  194 SKUs agrégés
+2026-01-15 22:01:09,490 - INFO -  Total unités: 15704
+2026-01-15 22:01:09,491 - INFO - === ÉTAPE 5: CALCUL NET DEMAND ===
+2026-01-15 22:01:09,494 - INFO -  200 SKUs en stock
+2026-01-15 22:01:09,601 - INFO - 194 SKUs analysés
+2026-01-15 22:01:09,602 - INFO -  99 SKUs à commander
+2026-01-15 22:01:09,602 - INFO -  10470 unités totales à commander
+2026-01-15 22:01:09,602 - INFO - === ÉTAPE 6: GÉNÉRATION COMMANDES FOURNISSEURS ===
+2026-01-15 22:01:09,602 - INFO -  14 fournisseurs concernés
+2026-01-15 22:01:09,604 - INFO -  SUP005: 14 SKUs, 1188 unités
+2026-01-15 22:01:12,972 - INFO -  SUP001: 8 SKUs, 1272 unités
+2026-01-15 22:01:16,082 - INFO -  SUP010: 7 SKUs, 606 unités
+2026-01-15 22:01:18,945 - INFO -  SUP008: 5 SKUs, 504 unités
+2026-01-15 22:01:22,194 - INFO -  SUP009: 6 SKUs, 690 unités
+2026-01-15 22:01:25,274 - INFO -  SUP002: 13 SKUs, 1662 unités
+2026-01-15 22:01:28,159 - INFO -  SUP004: 10 SKUs, 978 unités
+2026-01-15 22:01:30,684 - INFO -  SUP007: 8 SKUs, 936 unités
+2026-01-15 22:01:33,385 - INFO -  SUP013: 5 SKUs, 372 unités
+2026-01-15 22:01:36,121 - INFO -  SUP011: 8 SKUs, 816 unités
+2026-01-15 22:01:39,154 - INFO -  SUP006: 4 SKUs, 486 unités
+2026-01-15 22:01:41,516 - INFO -  SUP012: 3 SKUs, 432 unités
+2026-01-15 22:01:44,337 - INFO -  SUP003: 5 SKUs, 336 unités
+2026-01-15 22:01:47,217 - INFO -  SUP015: 3 SKUs, 192 unités
+2026-01-15 22:01:50,005 - INFO -  Commandes disponibles dans: output\supplier_orders\2026-01-15
+2026-01-15 22:01:50,006 - INFO - === ÉTAPE 7: DÉTECTION EXCEPTIONS ===
+2026-01-15 22:01:50,015 - INFO -  Aucune exception détectée
+2026-01-15 22:01:50,015 - INFO - ======================================================================
+2026-01-15 22:01:50,015 - INFO -  PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-15 22:01:50,016 - INFO -   Durée: 82.36 secondes
+2026-01-15 22:01:50,016 - INFO - ======================================================================

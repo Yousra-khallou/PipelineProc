@@ -1,0 +1,152 @@
+services:
+  # ==========================================
+  # 1. NAMENODE (Master HDFS)
+  # ==========================================
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+    environment:
+      - CLUSTER_NAME=procurement
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+      - HDFS_CONF_dfs_replication=1
+    networks:
+      - bigdata
+
+  # ==========================================
+  # 2. DATANODE (Worker HDFS)
+  # ==========================================
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    networks:
+      - bigdata
+    depends_on:
+      - namenode
+
+  # ==========================================
+  # 3. RESOURCEMANAGER (YARN Master)
+  # ==========================================
+  resourcemanager:
+    image: bde2020/hadoop-resourcemanager:2.0.0-hadoop3.2.1-java8
+    container_name: resourcemanager
+    ports:
+      - "8088:8088"
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    networks:
+      - bigdata
+    depends_on:
+      - namenode
+      - datanode
+
+  # ==========================================
+  # 4. NODEMANAGER (YARN Worker)
+  # ==========================================
+  nodemanager:
+    image: bde2020/hadoop-nodemanager:2.0.0-hadoop3.2.1-java8
+    container_name: nodemanager
+    environment:
+      - CORE_CONF_fs_defaultFS=hdfs://namenode:9000
+    networks:
+      - bigdata
+    depends_on:
+      - resourcemanager
+
+  # ==========================================
+  # 5. POSTGRESQL (Base de données)
+  # ==========================================
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_DB: metastore
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: hive123
+    networks:
+      - bigdata
+
+  # ==========================================
+  # 6. HIVE METASTORE
+  # ==========================================
+  hive-metastore:
+    image: bde2020/hive:2.3.2-postgresql-metastore
+    container_name: hive-metastore
+    ports:
+      - "9083:9083"
+    environment:
+      SERVICE_NAME: metastore
+      DB_DRIVER: postgres
+      SERVICE_OPTS: "-Djavax.jdo.option.ConnectionDriverName=org.postgresql.Driver 
+                     -Djavax.jdo.option.ConnectionURL=jdbc:postgresql://postgres:5432/metastore 
+                     -Djavax.jdo.option.ConnectionUserName=hive 
+                     -Djavax.jdo.option.ConnectionPassword=hive123"
+    networks:
+      - bigdata
+    depends_on:
+      - postgres
+      - namenode
+
+  # ==========================================
+  # 7. PRESTO COORDINATOR (SIMPLIFIÉ)
+  # ==========================================
+  presto-coordinator:
+    image: trinodb/trino:435
+    container_name: presto-coordinator
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./presto/coordinator:/opt/presto-server/etc
+    networks:
+      - bigdata
+    depends_on:
+      - hive-metastore
+
+  # ==========================================
+  # 8. PRESTO WORKER (SIMPLIFIÉ)
+  # ==========================================
+  presto-worker:
+    image: trinodb/trino:435
+    container_name: presto-worker
+    volumes:
+      - ./presto/worker:/opt/presto-server/etc
+    networks:
+      - bigdata
+    depends_on:
+      - presto-coordinator
+
+  # ==========================================
+  # 9. ADMINER (Interface PostgreSQL légère)
+  # ==========================================
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    ports:
+      - "8081:8080"
+    networks:
+      - bigdata
+    depends_on:
+      - postgres
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode:
+  postgres_data:
+
+networks:
+  bigdata:
+    driver: bridge
+

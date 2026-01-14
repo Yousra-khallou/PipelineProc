@@ -1,0 +1,111 @@
+{
+  "supplier_id": "SUP002",
+  "order_date": "2026-01-14",
+  "generated_at": "2026-01-14T22:06:58.951689",
+  "total_items": 17,
+  "total_units": 1686,
+  "items": [
+    {
+      "sku": "SKU0054",
+      "quantity": 72,
+      "pack_size": 12,
+      "num_packs": 6
+    },
+    {
+      "sku": "SKU0184",
+      "quantity": 36,
+      "pack_size": 6,
+      "num_packs": 6
+    },
+    {
+      "sku": "SKU0163",
+      "quantity": 60,
+      "pack_size": 6,
+      "num_packs": 10
+    },
+    {
+      "sku": "SKU0157",
+      "quantity": 192,
+      "pack_size": 12,
+      "num_packs": 16
+    },
+    {
+      "sku": "SKU0042",
+      "quantity": 96,
+      "pack_size": 48,
+      "num_packs": 2
+    },
+    {
+      "sku": "SKU0186",
+      "quantity": 120,
+      "pack_size": 6,
+      "num_packs": 20
+    },
+    {
+      "sku": "SKU0006",
+      "quantity": 36,
+      "pack_size": 24,
+      "num_packs": 1
+    },
+    {
+      "sku": "SKU0010",
+      "quantity": 96,
+      "pack_size": 24,
+      "num_packs": 4
+    },
+    {
+      "sku": "SKU0026",
+      "quantity": 108,
+      "pack_size": 12,
+      "num_packs": 9
+    },
+    {
+      "sku": "SKU0139",
+      "quantity": 72,
+      "pack_size": 12,
+      "num_packs": 6
+    },
+    {
+      "sku": "SKU0187",
+      "quantity": 60,
+      "pack_size": 12,
+      "num_packs": 5
+    },
+    {
+      "sku": "SKU0002",
+      "quantity": 96,
+      "pack_size": 24,
+      "num_packs": 4
+    },
+    {
+      "sku": "SKU0017",
+      "quantity": 108,
+      "pack_size": 12,
+      "num_packs": 9
+    },
+    {
+      "sku": "SKU0045",
+      "quantity": 198,
+      "pack_size": 6,
+      "num_packs": 33
+    },
+    {
+      "sku": "SKU0053",
+      "quantity": 144,
+      "pack_size": 48,
+      "num_packs": 3
+    },
+    {
+      "sku": "SKU0154",
+      "quantity": 96,
+      "pack_size": 48,
+      "num_packs": 2
+    },
+    {
+      "sku": "SKU0175",
+      "quantity": 96,
+      "pack_size": 24,
+      "num_packs": 4
+    }
+  ]
+}

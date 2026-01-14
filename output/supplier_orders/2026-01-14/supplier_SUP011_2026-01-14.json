@@ -1,0 +1,75 @@
+{
+  "supplier_id": "SUP011",
+  "order_date": "2026-01-14",
+  "generated_at": "2026-01-14T22:07:02.016081",
+  "total_items": 11,
+  "total_units": 1086,
+  "items": [
+    {
+      "sku": "SKU0047",
+      "quantity": 84,
+      "pack_size": 12,
+      "num_packs": 7
+    },
+    {
+      "sku": "SKU0106",
+      "quantity": 96,
+      "pack_size": 48,
+      "num_packs": 2
+    },
+    {
+      "sku": "SKU0121",
+      "quantity": 144,
+      "pack_size": 24,
+      "num_packs": 6
+    },
+    {
+      "sku": "SKU0141",
+      "quantity": 84,
+      "pack_size": 6,
+      "num_packs": 14
+    },
+    {
+      "sku": "SKU0101",
+      "quantity": 144,
+      "pack_size": 48,
+      "num_packs": 3
+    },
+    {
+      "sku": "SKU0130",
+      "quantity": 144,
+      "pack_size": 48,
+      "num_packs": 3
+    },
+    {
+      "sku": "SKU0116",
+      "quantity": 48,
+      "pack_size": 24,
+      "num_packs": 2
+    },
+    {
+      "sku": "SKU0072",
+      "quantity": 96,
+      "pack_size": 6,
+      "num_packs": 16
+    },
+    {
+      "sku": "SKU0001",
+      "quantity": 114,
+      "pack_size": 6,
+      "num_packs": 19
+    },
+    {
+      "sku": "SKU0034",
+      "quantity": 96,
+      "pack_size": 48,
+      "num_packs": 2
+    },
+    {
+      "sku": "SKU0061",
+      "quantity": 36,
+      "pack_size": 24,
+      "num_packs": 1
+    }
+  ]
+}
